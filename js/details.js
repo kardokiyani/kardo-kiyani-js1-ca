@@ -16,13 +16,14 @@ async function fetchArtistNames() {
     const response = await fetch(url, headers_content);
     const results = await response.json();
     console.log(results);
+    mainInfo.innerHTML = "";
     createArtistNameHtml(results);
   } catch (error) {
     console.log(error);
   }
 }
 
-mainInfo.innerHTML = "";
+
 
 function createArtistNameHtml(results) {
   mainInfo.innerHTML = `<h1>${results.response.songs[0].artist_names}</h1>
