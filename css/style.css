@@ -59,7 +59,7 @@ form {
 
 .form-error {
   display: none;
-  color: rgb(235, 17, 17);
+  color: rgb(212, 30, 30);
   font-size: 0.9rem;
   margin-top: 2px;
 }

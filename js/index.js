@@ -18,6 +18,8 @@ async function callingApi() {
 
   console.log(json);
 
+  resultsContainer.innerHTML = "";
+
   const results = json.response.songs;
 
   results.forEach(function (results) {
