@@ -25,7 +25,9 @@ async function fetchArtistNames() {
 mainInfo.innerHTML = "";
 
 function createArtistNameHtml(results) {
-  mainInfo.innerHTML = `<h1>${results.response.songs[11].artist_names}</h1>`;
+  mainInfo.innerHTML = `<h1>${results.response.songs[0].artist_names}</h1>
+                        <h2>${results.response.songs[0].annotation_count}</h2>
+                        <h3>${results.response.songs[0].url}</h3>`;
 }
 
 fetchArtistNames();
