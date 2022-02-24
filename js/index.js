@@ -29,7 +29,7 @@ async function callingApi() {
       console.log(results.lyrics_state);
       console.log(results.id);
       resultsContainer.innerHTML += `<a href="details.html?id=${results.id}" class="contentHomepage">
-                                    <div>${results.artist_names}</div>
+                                    <h3>${results.artist_names}</h3>
                                     <div>${results.lyrics_state}</div>
                                     <div>${results.id}</div>`;
     });

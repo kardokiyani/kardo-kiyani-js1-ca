@@ -7,15 +7,6 @@
   height: 150px;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 body {
   padding: 20px 40px;
   font-family: sans-serif;
@@ -62,4 +53,13 @@ form {
   color: rgb(212, 30, 30);
   font-size: 0.9rem;
   margin-top: 2px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
