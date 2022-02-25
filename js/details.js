@@ -19,7 +19,8 @@ async function fetchArtistNames() {
     mainInfo.innerHTML = "";
     createArtistNameHtml(results);
   } catch (error) {
-    console.log(error);
+    console.log("OPPS, NOW WE HAVE AN ERROR!");
+    mainInfo.innerHTML = errorOnPage("OPPS, NOW WE HAVE AN ERROR!");
   }
 }
 

@@ -34,8 +34,8 @@ async function callingApi() {
                                     <div>${results.id}</div>`;
     });
   } catch (error) {
-    console.log(error);
-    resultsContainer.innerHTML = message("error", error);
+    console.log("OPPS, NOW WE HAVE AN ERROR!");
+    resultsContainer.innerHTML = errorOnPage("OPPS, NOW WE HAVE AN ERROR!");
   }
 }
 
