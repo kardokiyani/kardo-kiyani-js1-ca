@@ -15,12 +15,21 @@ body {
 
 .buttonStyle {
   background: rgb(11, 182, 19);
-  width: 300px;
+  width: 350px;
   padding: 1rem;
   color: white;
   margin-top: 10px;
   cursor: pointer;
   margin-top: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
 }
 
 label {
@@ -28,6 +37,7 @@ label {
   margin-top: 1rem;
   color: rgb(0, 0, 0);
   font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 input {
@@ -51,8 +61,9 @@ form {
 .form-error {
   display: none;
   color: rgb(212, 30, 30);
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-top: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 @keyframes spin {
