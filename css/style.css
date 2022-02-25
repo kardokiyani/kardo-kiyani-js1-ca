@@ -5,6 +5,7 @@
   animation: spin 3s linear infinite;
   width: 150px;
   height: 150px;
+  margin: 15px;
 }
 
 body {
@@ -74,6 +75,7 @@ form {
   text-align: center;
   font-size: 20px;
   border-radius: 20px;
+  margin: 15px;
 }
 
 nav a {
